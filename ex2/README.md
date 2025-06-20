@@ -28,3 +28,6 @@ List processes:
 ```bash
 salt '*' cmd.run 'ps aux | grep nginx'
 ```
+Notes:
+Reused the same index file path from Exercise 1: /var/www/html/index.nginx-debian.html.
+The service state required the nginx package to be installed beforehand.
