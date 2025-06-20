@@ -23,3 +23,13 @@ Run the environment locally:
 
 ```bash
 docker-compose up -d
+```
+Apply any individual state:
+
+```bash
+salt '*' state.apply <state_name>
+```
+Run orchestration:
+```bash
+salt '*' state.highstate
+```
