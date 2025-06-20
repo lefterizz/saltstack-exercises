@@ -16,3 +16,12 @@ Install the NGINX package on the minion and deploy a simple static HTML file usi
 ```bash
 salt '*' state.apply nginx_install
 salt '*' state.apply deploy_index
+```
+
+## Verification
+On the minion:
+```bash
+curl http://localhost
+```
+You should see:
+`Welcome to NGINX served by SaltStack!`
