@@ -1,6 +1,5 @@
 ### 📁 `ex1/README.md`
 
-```markdown
 # Exercise 1: Install NGINX and Deploy HTML Page
 
 ## Objective
