@@ -14,7 +14,7 @@ This repository contains a series of SaltStack exercises completed as part of a 
 ## Requirements
 
 - Docker & Docker Compose
-- Salt Master & Minion containers (based on [salt-beacons-and-reactors-test]( ))
+- Salt Master & Minion containers (based on [salt-docker-enviroment](https://github.com/lefterizz/salt-docker-enviroment))
 - Basic understanding of SaltStack states and pillars
 
 ## Running the Setup
