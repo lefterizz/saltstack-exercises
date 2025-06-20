@@ -29,7 +29,7 @@ salt '*' cmd.run 'nginx -s reload'
 Verification
 `curl http://localhost:8080`
 
-Notes
+Notes:
 Fixed a YAML formatting issue (mapping values are not allowed) caused by incorrect pillar syntax.
 Used the same index file path from Exercise 1.
 Verified pillar was applied and NGINX served the page correctly after reload.
